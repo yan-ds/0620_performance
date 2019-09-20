@@ -20,9 +20,9 @@
   let input = document.getElementById('user_input')
   let timeid
   input.onkeyup = function () {
-    /*if(timeid){
+    if(timeid){
       clearTimeout(timeid)
-    }*/
+    }
     timeid = setTimeout(function () {
       let value = input.value
       rendRequest(value)
